@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="app_background">#fff4f4f4</color>
+    <color name="button_color">#ff0d949a</color>
+    <color name="button_stroke">#ff9d9c9c</color>
+    <color name="static_text_color">#ff003366</color>
+    <color name="line_color">#ff2f848b</color>
+    <color name="login_button_stroke">#ff010a0b</color>
+</resources>

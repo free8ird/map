@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32.0dip"
+        android:layout_marginTop="20.0dip"
+        android:src="@android:drawable/stat_notify_error" />
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dialogText"
+        android:layout_alignLeft="@+id/dialogText"
+        android:layout_marginLeft="27.0dip"
+        android:text="dialogTitle" />
+
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="18.0dip"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="dialogText" />
+
+    <Button
+        android:id="@+id/dialogOk"
+        android:layout_width="100.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dialogTitle"
+        android:layout_below="@+id/dialogText"
+        android:layout_marginTop="25.0dip"
+        android:text="Ok" />
+
+</RelativeLayout>
